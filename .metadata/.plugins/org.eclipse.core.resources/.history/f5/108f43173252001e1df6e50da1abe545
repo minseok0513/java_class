@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		System.out.printf("%.0f",(float)a/b);
+		char a = sc.next().charAt(0);
+		System.out.printf("%c",a+1);
 	}
 }

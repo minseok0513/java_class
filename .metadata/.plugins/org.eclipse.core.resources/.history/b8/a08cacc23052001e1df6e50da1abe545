@@ -1,0 +1,12 @@
+public class Main {
+	public static void main(String[] args) {
+		boolean[] arr1 = new boolean[7];
+		
+		arr1[0] = true;
+		arr1[1] = true;
+		arr1[2] = false;
+		arr1[3] = false;
+		double[] arr2= {3.14, 2.55, 6.22};
+		System.out.println(arr2[0]);
+	}
+}
